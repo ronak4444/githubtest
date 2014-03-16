@@ -14,17 +14,7 @@ stage2(2,:)= xover2;
 
 pm= 1/length;
 
-for i=1:2
-    for j=1:length
-        
-        r=rand();
-        
-        if r<= pm
-            stage2(i,j)= ~stage2(i,j);
-        end
-    end
 end
-end
-               
-        
+              
+             
         
